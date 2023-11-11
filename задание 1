@@ -13,15 +13,19 @@ int main() {
         } 
         if (min_age > age) { 
             min_age = age; 
-        } 
+        }        
         
         sum_age += age;    
         
-        mid_age = sum_age / visitors;
+        mid_age = sum_age / visitors; 
+        
     } 
+    
  
+        
     cout << "Максимальный возраст из всех посетителей = " << max_age << endl; 
     cout << "Минимальный возраст из всех посетителей = " << min_age << endl; 
     cout << "Средний возраст возраст из всех посетителей = " << mid_age << endl; 
+    
     return 0; 
 }
